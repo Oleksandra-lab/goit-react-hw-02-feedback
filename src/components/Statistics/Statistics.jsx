@@ -1,16 +1,16 @@
-import React from 'react'
-import {StatList, StatItem, StatTitle} from './Statistics.styled'
- export const Statistics = ({
-  good,
-  neutral,
-  bad,
-  total,
-  positivePercentage,
-}) => {
-    return (
-        <div>
-            <StatTitle>Statistics</StatTitle>
-      {total!==0 && (
+import React from 'react';
+import {
+  StatList,
+  StatItem,
+  StatTitle,
+  Notification,
+} from './Statistics.styled';
+
+const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+  return (
+    <div>
+      <StatTitle>Statistics</StatTitle>
+      {total !== 0 && (
         <StatList>
           <StatItem>
             Good: <span>{good}</span>
@@ -29,7 +29,8 @@ import {StatList, StatItem, StatTitle} from './Statistics.styled'
           </StatItem>
         </StatList>
       )}
-        </div>
-    )
-}
+    </div>
+  );
+};
 
+export default Statistics;

@@ -13,6 +13,7 @@ text-align:center;
 `;
 
 export const StatItem = styled.li`
-display:flex;
+display: flex;
   justify-content: space-between;
 `;
+
