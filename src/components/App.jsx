@@ -38,7 +38,7 @@ export default class App extends Component {
             total={total}
             positivePercentage={positivePercentage}
           />
-          {total === 0 && <Notification/>}
+          {total === 0 && <Notification />}
         </Section>
       </div>
     );
