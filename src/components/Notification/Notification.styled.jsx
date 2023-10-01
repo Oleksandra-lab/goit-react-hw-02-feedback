@@ -1,5 +1,5 @@
-import styled from "@emotion/styled"
+import styled from '@emotion/styled'
 
-export const Notification = styled.p`
+export const NotificationMsg = styled.p`
 text-align: center;
 `;

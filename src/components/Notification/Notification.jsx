@@ -1,7 +1,8 @@
+import {NotificationMsg} from './Notification.styled'
 
   const Notification = () => {
     return(
-    <Notification message="There is no feedback"></Notification>
+    <NotificationMsg>There is no feedback yet</NotificationMsg>
     ) 
 
 }

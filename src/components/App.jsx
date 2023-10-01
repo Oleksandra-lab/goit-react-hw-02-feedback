@@ -3,7 +3,7 @@ import { Component } from 'react';
 import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
-import { Notification } from './Notification/Notification.styled';
+import Notification from './Notification/Notification';
 
 export default class App extends Component {
   state = {
@@ -38,7 +38,7 @@ export default class App extends Component {
             total={total}
             positivePercentage={positivePercentage}
           />
-          {total === 0 && <Notification />}
+          {total === 0 && <Notification/>}
         </Section>
       </div>
     );
