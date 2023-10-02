@@ -3,7 +3,6 @@ import {
   StatList,
   StatItem,
   StatTitle,
-  Notification,
 } from './Statistics.styled';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
